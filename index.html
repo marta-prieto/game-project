@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Title</title>
+    <script src="./components/app.js" type="module" defer></script>
+</head>
+
+<body class="app js-app">
+<main>
+    <section class="section pattern-checks-sm bg-blue white">
+        <h2 class="title">Rock, Paper, Scissors</h2>
+        <h3 class="title">Player</h3>
+        <ul class="button_box player">
+            <li><button id="1" class="button_dice button100 js-button" data-type="1">Rock</button></li>
+            <li><button id="2" class="button_dice button6 js-button" data-type="2">Paper</button></li>
+            <li><button id="3" class="button_dice button3 js-button" data-type="3">Scissors</button></li>
+        </ul>
+        <h3 class="title">Machine</h3>
+        <ul class="button_box machine">
+            <li><button  class="button_dice" data-type="1"  disabled>Rock</button></li>
+            <li><button  class="button_dice" data-type="2"  disabled>Paper</button></li>
+            <li><button  class="button_dice" data-type="3"  disabled>Scissors</button></li>
+        </ul>
+        <h3 class="title">Winner</h3>
+        <output class="random_button js-output"></output>
+
+    </section>
+
+</main>
+</body>
+
+</html>
